@@ -1,0 +1,57 @@
+
+input,select{
+	border: 1px solid $secondary-color;
+	float:right;
+	height:22px;
+}
+
+label{
+	color: $font-color;
+}
+
+#form_container{
+	background-image: url("../img/red_carbon.png");
+	padding:5px;
+	margin: auto;
+	width: $container-width;
+	height:280px;
+	box-shadow: 5px 5px 5px $secondary-color;
+	border-radius : $border-radius;
+}
+
+.inline{
+	display: inline-block;
+	width: $input-width;
+	height: 30px;
+	margin:10px;
+}
+	
+h1{		
+	margin: auto;		
+	width: 400px;		
+	text-align : center;		
+	color: $font-color;		
+	font-family: nfs;		
+	font-size: 60px;		
+	text-shadow : $text-shadow;	
+}
+
+#add{
+	width:50px;
+	height: 20px;
+	float:right;
+	margin-right:40px;
+	padding: 20px;
+}
+
+#btn{
+	height: 30px;
+	width: 100px;
+	border-radius : $border-radius;
+	border: 2px solid #000000;
+	box-shadow: 5px 5px 5px $secondary-color;
+} 
+
+body{
+	background-image : url("../img/carbon_fibre.png");
+}

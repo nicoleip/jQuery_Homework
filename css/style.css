@@ -1,0 +1,80 @@
+#form_container {
+  font-family: Courier New;
+  font-size: 25px;
+  text-shadow: 5px 5px #000000; }
+
+@font-face {
+  font-family: nfs;
+  src: url(../fonts/nfs.ttf); }
+input, select {
+  border: 1px solid #000000;
+  float: right;
+  height: 22px; }
+
+label {
+  color: #ffffff; }
+
+#form_container {
+  background-image: url("../img/red_carbon.png");
+  padding: 5px;
+  margin: auto;
+  width: 400px;
+  height: 280px;
+  box-shadow: 5px 5px 5px #000000;
+  border-radius: 10px; }
+
+.inline {
+  display: inline-block;
+  width: 380px;
+  height: 30px;
+  margin: 10px; }
+
+h1 {
+  margin: auto;
+  width: 400px;
+  text-align: center;
+  color: #ffffff;
+  font-family: nfs;
+  font-size: 60px;
+  text-shadow: 5px 5px #000000; }
+
+#add {
+  width: 50px;
+  height: 20px;
+  float: right;
+  margin-right: 40px;
+  padding: 20px; }
+
+#btn {
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  box-shadow: 5px 5px 5px #000000; }
+
+body {
+  background-image: url("../img/carbon_fibre.png"); }
+
+input, select {
+  -moz-box-shadow: 2px 2px 2px 2px #000000;
+  -webkit-box-shadow: 2px 2px 2px 2px #000000;
+  box-shadow: 2px 2px 2px 2px #000000; }
+
+table {
+  width: 800px;
+  margin: auto;
+  color: #ffffff;
+  position: relative;
+  top: 70px;
+  left: -150px; }
+
+#table_body {
+  width: 800px;
+  margin: auto;
+  color: #ffffff;
+  position: relative;
+  top: 70px;
+  left: -100px;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
